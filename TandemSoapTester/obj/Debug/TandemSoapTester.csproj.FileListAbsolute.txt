@@ -1,7 +1,0 @@
-/home/ryagodin/Projects/TandemSoapTester/TandemSoapTester/bin/Debug/TandemSoapTester.exe
-/home/ryagodin/Projects/TandemSoapTester/TandemSoapTester/bin/Debug/TandemSoapTester.pdb
-/home/ryagodin/Projects/TandemSoapTester/TandemSoapTester/obj/Debug/TandemSoapTester.csprojAssemblyReference.cache
-/home/ryagodin/Projects/TandemSoapTester/TandemSoapTester/obj/Debug/TandemSoapTester.csproj.CoreCompileInputs.cache
-/home/ryagodin/Projects/TandemSoapTester/TandemSoapTester/obj/Debug/TandemSoapTester.exe
-/home/ryagodin/Projects/TandemSoapTester/TandemSoapTester/obj/Debug/TandemSoapTester.pdb
-/home/ryagodin/Projects/TandemSoapTester/TandemSoapTester/bin/Debug/envelope-template.xml
