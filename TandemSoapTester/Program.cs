@@ -13,7 +13,7 @@ namespace TandemSoapTester
             var password = Console.ReadLine ();
             
             var soapTester = new TandemSoapTester ();
-            var response = soapTester.GetEnrollmentCampaignList (username, password);
+            var response = soapTester.GetEnrollmentCampaignList ("envelope-template-1.xml", username, password);
             
             Console.WriteLine ("Response:");
             Console.WriteLine (response);

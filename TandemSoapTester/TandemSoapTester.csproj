@@ -43,7 +43,7 @@
         <Compile Include="TandemSoapTester.cs" />
     </ItemGroup>
     <ItemGroup>
-      <Content Include="envelope-template.xml">
+      <Content Include="envelope-template-1.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
     </ItemGroup>

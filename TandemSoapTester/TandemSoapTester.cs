@@ -8,9 +8,9 @@ namespace TandemSoapTester
 {
     public class TandemSoapTester
     {
-        public string GetEnrollmentCampaignList (string username, string password)
+        public string GetEnrollmentCampaignList (string path, string username, string password)
         {
-            var envelope = PrepareEnvelope (username, password);
+            var envelope = PrepareEnvelope (path, username, password);
             
             Console.WriteLine ("Request:");
             Console.WriteLine (envelope);
@@ -53,9 +53,9 @@ namespace TandemSoapTester
             return webRequest;
         }
 
-        public string PrepareEnvelope (string username, string password)
+        public string PrepareEnvelope (string path, string username, string password)
         {
-            var envelope = File.ReadAllText ("envelope-template.xml");
+            var envelope = File.ReadAllText (path);
 
             envelope = envelope.Replace ("{wsu:Created}", DateTime.Now.ToUniversalTime ().ToString ("O"));
             envelope = envelope.Replace ("{wsu:Expires}", DateTime.Now.AddMinutes (5).ToUniversalTime ().ToString ("O"));
